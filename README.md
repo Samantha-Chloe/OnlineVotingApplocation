@@ -4,20 +4,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OnlineVoterRegistration {
+
 	public static List<VoterApplicant> voters = new ArrayList<>();
+	
 	public static List<Candidates> candidates = new ArrayList<>();
+	
 	public static List<VoterForm> voterForm = new ArrayList<>();
+	
 	public static Scanner sc = new Scanner(System.in);
+	
 	public static Scanner s1 = new Scanner(System.in);
+	
 	public static Scanner s2 = new Scanner(System.in);
+	
 	public static Scanner s3 = new Scanner(System.in);
+	
 	public static Scanner s4 = new Scanner(System.in);
+	
 	public static Scanner s5 = new Scanner(System.in);
+	
 	public static String voterID, candidate_ID;
+	
 	public static String choose , voter_Pres, voter_Vpres, voter_Secretary;
+	
 	public static boolean status = true;
+	
 	public static void main(String[] args) {
+	
 		OnlineVoterRegistration voter = new OnlineVoterRegistration();
+		
 		voter.voterOutput();
 	
 	}
