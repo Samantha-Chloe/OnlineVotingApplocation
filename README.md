@@ -2,6 +2,7 @@ package onlinevoterregistrationapp;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
+
 public class OnlineVoterRegistration {
 	public static List<VoterApplicant> voters = new ArrayList<>();
 	public static List<Candidates> candidates = new ArrayList<>();
@@ -18,6 +19,7 @@ public class OnlineVoterRegistration {
 	public static void main(String[] args) {
 		OnlineVoterRegistration voter = new OnlineVoterRegistration();
 		voter.voterOutput();
+	
 	}
 	private void add_voterRegistration(VoterApplicant voter) {
 		System.out.println("Voter has been registered.");
